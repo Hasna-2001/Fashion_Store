@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "316938228019",
+    "project_id": "hs-fashion-store",
+    "storage_bucket": "hs-fashion-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316938228019:android:d3f10be2baab763bedee46",
+        "android_client_info": {
+          "package_name": "com.example.fashion_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316938228019-rcnhsnjs33vg9spvft8shmfm4cl6m0cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3A18L2Xmd1AGG2-7eYtnNOV8o5nSDEP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316938228019-rcnhsnjs33vg9spvft8shmfm4cl6m0cn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "316938228019-h5imui76a0r2f7s2t5pisse7svsn1k85.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fashionStore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

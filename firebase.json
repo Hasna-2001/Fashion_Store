@@ -1,0 +1,23 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "hs-fashion-store",
+          "configurations": {
+            "ios": "1:316938228019:ios:8fa0780843947b52edee46",
+            "macos": "1:316938228019:ios:8fa0780843947b52edee46",
+            "web": "1:316938228019:web:50e4959d280c9007edee46",
+            "windows": "1:316938228019:web:641d027790beaa44edee46"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-east1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

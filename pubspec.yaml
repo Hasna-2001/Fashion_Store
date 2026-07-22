@@ -1,0 +1,160 @@
+name: hs_fashion_store
+description: HS Fashion Store Flutter App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Firebase ───────────────────────────────────────────────────────────────
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.2.0
+  firebase_storage: ^12.1.0
+
+  # ── Images ────────────────────────────────────────────────────────────────
+  cached_network_image: ^3.3.1
+
+  # ── UI ────────────────────────────────────────────────────────────────────
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "lib/assets/hs_logo.png"
+    background_color: "#F5EFE6"
+    theme_color: "#7B4F2E"
+  windows:
+    generate: true
+    image_path: "lib/assets/hs_logo.png"
+    icon_size: 48
+  image_path: "lib/assets/hs_logo.png"
+  background_color: "#F5EFE6"
+  adaptive_icon_background: "#F5EFE6"
+  adaptive_icon_foreground: "lib/assets/hs_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/bridal1.webp
+    - lib/assets/bridal2.webp
+    - lib/assets/bridal3.webp
+    - lib/assets/bridal4.webp
+    - lib/assets/bridal5.webp
+    - lib/assets/bridal6.webp
+    - lib/assets/bridal7.webp
+    - lib/assets/bridal8.webp
+    - lib/assets/bridal9.webp
+    - lib/assets/bridal10.jpg
+    - lib/assets/bridal-pink.webp
+    - lib/assets/bridal-red.webp
+    - lib/assets/make1.jpg
+    - lib/assets/make2.jpg
+    - lib/assets/make3.jpg
+    - lib/assets/make4.png
+    - lib/assets/make5.jpg
+    - lib/assets/make6.jpg
+    - lib/assets/make7.jpg
+    - lib/assets/make8.jpg
+    - lib/assets/make9.jpg
+    - lib/assets/make10.jpg
+    - lib/assets/sh1.jpg
+    - lib/assets/sh2.jpg
+    - lib/assets/sh3.jpg
+    - lib/assets/sh4.jpg
+    - lib/assets/sh5.jpg
+    - lib/assets/sh6.jpg
+    - lib/assets/sh7.jpg
+    - lib/assets/sh8.jpg
+    - lib/assets/sh9.jpg
+    - lib/assets/sh10.jpg
+    - lib/assets/sh-silver.jpg
+    - lib/assets/sh-black.jpg
+    - lib/assets/sh-blue.jpg
+    - lib/assets/sun1.jpg
+    - lib/assets/sun2.jpg
+    - lib/assets/sun3.jpg
+    - lib/assets/sun4.jpg
+    - lib/assets/sun5.jpg
+    - lib/assets/sun6.jpg
+    - lib/assets/sun7.jpg
+    - lib/assets/sun8.jpg
+    - lib/assets/sun9.jpg
+    - lib/assets/sun10.jpg
+    - lib/assets/sc1.jpg
+    - lib/assets/sc2.jpg
+    - lib/assets/sc3.jpg
+    - lib/assets/sc4.jpg
+    - lib/assets/sc5.jpg
+    - lib/assets/sc6.jpg
+    - lib/assets/sc7.jpg
+    - lib/assets/sc8.jpg
+    - lib/assets/sc9.jpg
+    - lib/assets/sc10.jpg
+    - lib/assets/sc11.jpg
+    - lib/assets/sc3-beig.jpg
+    - lib/assets/sc3-purple.jpg
+    - lib/assets/sc5-black.jpg
+    - lib/assets/hb1.jpg
+    - lib/assets/hb2.jpg
+    - lib/assets/hb3.jpg
+    - lib/assets/hb4.jpg
+    - lib/assets/hb5.jpg
+    - lib/assets/hb6.jpg
+    - lib/assets/hb7.jpg
+    - lib/assets/hb8.jpg
+    - lib/assets/hb9.jpg
+    - lib/assets/hb10.jpg
+    - lib/assets/om1.jpg
+    - lib/assets/om2.jpg
+    - lib/assets/om3.jpg
+    - lib/assets/om4.jpg
+    - lib/assets/om5.jpg
+    - lib/assets/om6.jpg
+    - lib/assets/om7.jpg
+    - lib/assets/om8.jpg
+    - lib/assets/om9.png
+    - lib/assets/om10.jpg
+    - lib/assets/of1.jpg
+    - lib/assets/of1.webp
+    - lib/assets/of2.jpg
+    - lib/assets/of3.jpg
+    - lib/assets/of4.jpg
+    - lib/assets/of5.jpg
+    - lib/assets/of6.png
+    - lib/assets/of7.jpg
+    - lib/assets/of8.jpg
+    - lib/assets/of9.jpg
+    - lib/assets/of10.jpg
+    - lib/assets/j1.webp
+    - lib/assets/j2.jpeg
+    - lib/assets/j2.webp
+    - lib/assets/j3.jpg
+    - lib/assets/j4.webp
+    - lib/assets/h1.jpg
+    - lib/assets/h2.webp
+    - lib/assets/h3.webp
+    - lib/assets/h4.webp
+    - lib/assets/h5.jpg
+    - lib/assets/h6.jpg
+    - lib/assets/h7.jpg
+    - lib/assets/h8.jpg
+    - lib/assets/h9.webp
+    - lib/assets/h10.jpg
+    - lib/assets/h11.jpg
+    - lib/assets/h12.jpg
+    - lib/assets/hs_logo.png
+    
