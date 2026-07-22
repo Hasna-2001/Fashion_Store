@@ -1,5 +1,7 @@
 # 👗 HS Fashion Store
 
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Hasna-2001/Fashion_Store/releases/tag/v1.0.0)
+
 A cross-platform **Flutter** fashion e-commerce app with a **Firebase** backend (Auth + Firestore + Storage). Browse products by category, view details, manage a cart and wishlist, checkout, and track past orders — with a responsive UI that runs on **mobile, web, and desktop**.
 
 ## ✨ Features
@@ -127,6 +129,12 @@ flutter run -d macos      # macOS desktop
 | `users/{uid}/wishlist` | Per-user saved/wishlisted products |
 
 Access rules are defined in [`firestore.rules`](firestore.rules).
+
+---
+
+## 📥 Download
+
+Get the latest Android APK from the [Releases page](https://github.com/Hasna-2001/Fashion_Store/releases/latest) — no build required.
 
 ---
 
