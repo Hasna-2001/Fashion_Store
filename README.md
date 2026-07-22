@@ -2,10 +2,6 @@
 
 A cross-platform **Flutter** fashion e-commerce app with a **Firebase** backend (Auth + Firestore + Storage). Browse products by category, view details, manage a cart and wishlist, checkout, and track past orders — with a responsive UI that runs on **mobile, web, and desktop**.
 
-> Built as a university coursework project (Semester 4), showcasing full-stack mobile app development with Flutter and Firebase.
-
----
-
 ## ✨ Features
 
 - **Authentication** — Email/password sign up & login via Firebase Auth, with friendly error messages (weak password, wrong credentials, email already in use, etc.)
